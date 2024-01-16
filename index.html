@@ -15,7 +15,7 @@
 <body>
     <header class="head_bar">
         <img src="assets/img/book.png" alt="book">
-        <h1 class="head_bar__title">Bookshelf App</h1>
+        <h1 class="head_bar__title" style="color: white;">Bookshelf App</h1>
     </header>
     <main>
         <div class="container">
@@ -23,26 +23,26 @@
                 <div class="photo">
                     <img src="assets/img/buku.png" alt="">
                 </div>
-                <div class="input_section">
+                <div class="input_section" style="background-color: rgba(38, 32, 23, 0.24);">
                     <div class="image">
                         <img src="assets/img/buku.png" alt="">
                     </div>
-                    <h2>Masukkan Buku Baru</h2>
+                    <h2 style="color: white;">Masukkan Buku Baru</h2>
                     <form id="inputBook">
                         <div class="input">
-                            <label for="inputBookTitle">Judul</label>
+                            <label for="inputBookTitle" style="color: white;">Judul</label>
                             <input id="inputBookTitle" type="text" placeholder="ex : Belajar Pemograman Dasar" required>
                         </div>
                         <div class="input">
-                            <label for="inputBookAuthor">Penulis</label>
+                            <label for="inputBookAuthor" style="color: white;">Penulis</label>
                             <input id="inputBookAuthor" type="text" required placeholder="ex : Gilbert Hutapea">
                         </div>
                         <div class="input">
-                            <label for="inputBookYear">Tahun</label>
+                            <label for="inputBookYear" style="color: white;">Tahun</label>
                             <input id="inputBookYear" type="number" required placeholder="ex : 2023">
                         </div>
                         <div class="input">
-                            <label for="inputBookCategory">Kategori</label>
+                            <label for="inputBookCategory" style="color: white;">Kategori</label>
                             <select name="bookCategory" id="inputBookCategory" class="bookCategory" required>
                                 <option value="" selected>Pilih kategori buku...</option>
                                 <option value="Pendidikan">Pendidikan</option>
@@ -59,12 +59,12 @@
                             </select>
                         </div>
                         <div class="input">
-                            <label for="inputBookImage">Link Cover Buku</label>
+                            <label for="inputBookImage" style="color: white;">Link Cover Buku</label>
                             <input id="inputBookImage" type="text" required
                                 placeholder="ex : https://edit.org/images/cat/book-covers-big-2019101610.jpg">
                         </div>
                         <div class="input_inline">
-                            <label for="inputBookIsComplete">Selesai dibaca</label>
+                            <label for="inputBookIsComplete" style="color: white;">Selesai dibaca</label>
                             <input id="inputBookIsComplete" type="checkbox">
                         </div>
                         <button id="bookSubmit" type="submit">Masukkan buku ke dalam rak <span>Belum selesai
@@ -89,12 +89,12 @@
                 <div class="bookShelf">
                     <div class="bookStatus">
                         <div class="BookshelfCard incompleteBookshelfList">
-                            <h2>Belum Selesai Dibaca</h2>
+                            <h2 style="color: #1A1A1B;">Belum Selesai Dibaca</h2>
                             <div class="BookCard" id="uncompleteBook">
                             </div>
                         </div>
                         <div class="BookshelfCard completeBookshelfList">
-                            <h2>Selesai Dibaca</h2>
+                            <h2 style="color: #1A1A1B;">Selesai Dibaca</h2>
                             <div class="BookCard" id="completeBook">
                             </div>
                         </div>
