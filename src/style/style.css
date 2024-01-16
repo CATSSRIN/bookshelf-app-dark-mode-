@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
 
 body {
+    background: #363636;
     font-family: 'Poppins', sans-serif;
+    color: white;
     margin: 0;
     padding: 0;
 }
@@ -175,13 +177,17 @@ button {
 
 .input_section>form>.input>input:focus,
 .input_section>form>.input>input:valid {
-    border-color: #5DADE2;
+    border-color: #ffffff;
+    background-color: #6c6868;
+    color: #ffffff;
     padding-left: 10px;
 }
 
 .input_section>form>.input>select:focus,
 .input_section>form>.input>select:valid {
-    border-color: #5DADE2;
+    border-color: #ffffff;
+    background-color: #6c6868;
+    color: #ffffff;
 }
 
 .input_section>form>.input_inline {
@@ -217,7 +223,7 @@ button {
     float: left;
     padding-left: 20px;
     border-radius: 10px;
-    background-color: #f1f3fb;
+    background-color: #6c6868;
     width: 50%;
 }
 
@@ -234,6 +240,7 @@ button {
 .incompleteBookshelfList {
     width: 48.5%;
     margin-right: 5px;
+    
 }
 
 .completeBookshelfList {
@@ -244,7 +251,7 @@ button {
 .Book {
     display: flex;
     width: 100%;
-    background-color: #FFF;
+    background-color: #363636;
     margin-bottom: 15px;
     margin-right: 8px;
     padding: 7px;
@@ -272,6 +279,7 @@ button {
 .BookTitle {
     margin-top: 10px;
     font-size: 14px;
+    color: #ffffff;
     font-weight: bolder;
 }
 
@@ -337,7 +345,7 @@ p {
     display: flex;
     flex-direction: column;
     border-radius: 10px;
-    background-color: #f1f3fb;
+    background-color: #6c6868;
     margin-right: 10px;
     padding: 15px 7px 15px 7px;
 }
@@ -351,7 +359,7 @@ p {
 .search-box {
     width: 100%;
     display: flex;
-    background: #ffffff;
+    background: #423f3f;
     height: 40px;
     border-radius: 40px;
     padding: 7px;
@@ -390,7 +398,7 @@ p {
     background: none;
     outline: none;
     float: left;
-    color: #2f3640;
+    color: #ffffff;
     font-size: 14px;
     transition: 0.4s;
     font-family: 'Poppins';
@@ -631,6 +639,7 @@ button {
     .incompleteBookshelfList {
         width: 100%;
         margin-top: 10px;
+        
     }
 
     .completeBookshelfList {
