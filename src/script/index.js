@@ -263,7 +263,7 @@ searchSubmit.addEventListener("click", function (event) {
     const searchResult = document.querySelector('#search>.BookCard');
 
     searchResult.innerHTML = '';
-    searchResult.innerHTML += `<p>Hasil pencarian judul buku <b>${searchTitle.value}</b></p>`;
+    searchResult.innerHTML += `<p style="color: black;">Hasil pencarian judul buku <b>${searchTitle.value}</b></p>`;
 
     for (const bookItem of books) {
         if (bookItem.title.toLowerCase().includes(searchTitle.value.toLowerCase())) {
