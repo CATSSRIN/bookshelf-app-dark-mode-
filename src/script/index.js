@@ -197,10 +197,10 @@ document.addEventListener('DOMContentLoaded', function () {
         event.preventDefault()
         const bookTitle = document.getElementById("inputBookTitle").value
         const bookAuthor = document.getElementById("inputBookAuthor").value
-        const bookYear = document.getElementById("inputBookYear").value
+        const bookYear = parseInt(document.getElementById("inputBookYear").value)
         const bookCategory = document.getElementById("inputBookCategory").value
         const bookImage = document.getElementById("inputBookImage").value
-        const bookIsCompleted = document.getElementById("inputBookIsComplete").checked
+        const bookIsCompleted = parseInt(document.getElementById("inputBookIsComplete").checked)
 
         const newBook = {
             id: +new Date(),
