@@ -2,7 +2,7 @@
 
 Submission Aplikasi Pengelolaan Data Menggunakan DOM dan Web Storage - Kelas Belajar Membuat Front-End Web untuk Pemula Oleh Dicoding
 
-🗒️ [Sertifikat Kompetensi Kelas Belajar Membuat Front-End Web untuk Pemula](https://www.dicoding.com/certificates/72ZD9J65JPYW)
+🗒️ [Sertifikat Kompetensi Kelas Belajar Membuat Front-End Web untuk Pemula](https://www.dicoding.com/certificates/2VX3O4MNNZYQ)
 
 ## 🚀 Deskripsi Kelas
 
@@ -23,6 +23,9 @@ Evaluasi Pembelajaran:
 - Submission (proyek akhir) membuat sebuah website yang menerapkan teknik manipulasi DOM dan web storage
 
 Total jam yang dibutuhkan untuk menyelesaikan kelas ini, mulai dari persiapan kelas sampai evaluasi belajar, adalah 36 jam.
+
+##Screenshot
+![Web Screenshot](assets/img/website_ss.png)
 
 <br>
 
