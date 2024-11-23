@@ -24,7 +24,7 @@ Evaluasi Pembelajaran:
 
 Total jam yang dibutuhkan untuk menyelesaikan kelas ini, mulai dari persiapan kelas sampai evaluasi belajar, adalah 36 jam.
 
-##Screenshot
+## Screenshot
 ![Web Screenshot](assets/img/website_ss.png)
 
 <br>
